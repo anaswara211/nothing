@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nothing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="tailwind.config.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gruppo&family=Gupter:wght@400;500;700&family=Matemasie&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AR:wght@100..400&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gruppo&family=Gupter:wght@400;500;700&family=Matemasie&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AR:wght@100..400&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+ <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#"><img src="https://in.cmf.tech/cdn/shop/files/cmf-logo-light-header-pc_99314af2-0b52-47f2-aee5-a4153693e6e4.png?v=1695698542" alt="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"style="color: white;">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"style="color: white;">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"style="color: white;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    
+
+    <nav class="z-10 fixed w-full top-0 ">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div class="flex items-center">
+                    <a href="#" class=""><img src="https://in.cmf.tech/cdn/shop/files/cmf-logo-light-header-pc_99314af2-0b52-47f2-aee5-a4153693e6e4.png?v=1695698542" alt="" class="logo"></a>
+                    </div>
+                <div class="hidden md:flex space-x-4  hover:text-orange-600">
+                    <div class="relative group">
+                        <button class="text-white inline-flex items-center">
+                            PRODUCTS
+                            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute hidden group-hover:block bg-gray-800 text-white py-2 mt-1 rounded shadow-lg">
+                            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700  pb-3"> 01 / PHONE </a>
+                            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700 text-decoration:no-underline"> 02 / AUDIO
+                                BUDS PRO 2NEW </a>
+                            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700">03 / NECKBAND PRO</a>
+                            <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700"> 04 / ACCESSORIES</a>
+                           
+                        </div>
+                    </div>
+                    <a href="#" class="text-white  hover:text-blue-600 ps-10">ABOUT</a>
+                    <a href="#" class="text-white hover:text-orange-600 ps-10">SERVICES</a>
+                </div>
+                
+                <div class="-mr-2 flex md:hidden">
+                    <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-gray-300 focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Mobile menu, show/hide based on menu state -->
+        <div class="md:hidden hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <!-- Home with Collapse -->
+                <div class="relative">
+                    <button type="button" class="w-full text-left text-white px-3 py-2 rounded-md text-base font-medium focus:outline-none focus:bg-gray-700 flex items-center justify-between" onclick="toggleDropdown('home-dropdown')">
+                        PRODUCTS
+                        <svg class="ml-1 w-4 h-4 transform transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="home-dropdown" class="hidden bg-gray-800 text-white mt-1 rounded shadow-lg">
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700"> 01 / PHONE</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700">02 / AUDIO</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700">03 / NECKBAND PRO</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-700">04 / ACCESSORIES</a>
+                </div>
+                </div>
+                <a href="#" class="text-white hover:text-orange-600 block px-3 py-2  rounded-md text-base font-medium">ABOUT</a>
+                <a href="#" class="text-white block px-3 py-2 rounded-md text-base font-medium">SERVICES</a>
+            </div>
+        </div>
+       
+    </nav>
+    
+    <!-- Hero Section with Background Image -->
+    <section class="hero-section d-flex align-items-center justify-content-center">
+        <div class="container" >
+            <h2 class="display-4" >WONDERFUL BY<br> DESIGN</h2>
+              <button class="b1" >WATCH VIDEO</button>
+            </div>
+      </section>
+    <section class="sec-section d-flex align-items-center">
+        <div class="container1" >
+            <h2 class="display-4" id="display-3"style="margin-left:10px">CMF PHONE 1</h2>
+            <p id="p1" style="margin-left:10px">A WONDER, FULL OF POWER.</p>
+            <div class="bf"style="margin-left:10px">
+              <button id="b2" >LEARN MORE</button>
+              <button id="b3" >BUY NOW</button>
+            </div>
+            </div>
+      </section>
+      <section class="third-section d-flex align-items-center ">
+        <div class="container1" >
+            <h2  class="display-4"  id="display-3" style="margin-top: -180px;margin-left:10px">BUDS PRO 2</h2>
+            <p id="p1"style="margin-left:10px">DIAL UP THE SOUND</p>
+            <div class="bf"style="margin-left:10px">
+              <button id="b2" >LEARN MORE</button>
+              <button id="b3" >BUY NOW</button>
+            </div>
+            </div>
+      </section>
+      <section class="fourth-section d-flex align-items-center">
+        <div class="container1">
+            <h2 class="display-4" id="display-3"  style="font-family:Ndot;font-size: 60px;margin-left:10px;margin-bottom: 30px;">WATCH PRO 2</h2>
+            <p id="p1"style="margin-left:13px;">YOUR TIME YOUR WAY</p>
+            <div class="bf"style="margin-left:10px;">
+              <button id="b2" >LEARN MORE</button>
+              <button id="b3" >BUY NOW</button>
+            </div>
+            </div>
+      </section>
+      <section class="fifth-section d-flex align-items-center ">
+        <div class="container1" >
+            <h2 class="display-4"id="display-3" style="font-size: 50px; margin-left:10px">CMF PHONE 1POWER 33W<br>FAST CHARGER</h2>
+            <p id="p1"style="margin-left:10px ">POWER IN A FLASH</p>
+            <div class="bf"style="margin-left:10px  ">
+              <button id="b2" >LEARN MORE</button>
+            </div>
+            </div>
+      </section>
+<section>
+    <div class="grid grid-cols-1 sm:grid-cols-3 min-h-[820px]">
+        <!-- BUDS PRO -->
+        <div class="bg-gray-200 ">
+          <h2 class="text-5xl text-black font-bold pt-11 pl-11"style="font-family: ndot;">BUDS PRO</h2>
+          <p id="pro" class="font-gruppo pl-12  text-xs">
+            From ₹3,499<br>
+            45 dB HYBRID ACTIVE NOISE CANCELLATION<br>
+            11 HRS OF NON-STOP MUSIC WITH BUDS ONLY<br>
+            ULTRA BASS TECHNOLOGY.
+          </p>
+          <div class="flex bg-gray-200">
+            <div id="productCarousel" class="carousel slide w-full max-w-4xl" data-bs-ride="carousel">
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                    <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+                </div>
+                <!-- Carousel Items -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="flex">
+                            <div class="bg-gray-200 ">
+                            <img src="https://in.cmf.tech/cdn/shop/files/tws2.png?v=1695642585" alt=""  class="mx-auto mb-4">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="flex justify-center ">
+                            <div class="bg-gray-200">
+                                <img src="https://in.cmf.tech/cdn/shop/files/tws_68077fae-f405-4ca7-80c8-4d9e38c595da.png?v=1695713488" alt="Watch Pro" class="mx-auto mb-4">
+        
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="flex justify-center">
+                            <div class="bg-gray-200  ">
+                                <img src="https://in.cmf.tech/cdn/shop/files/tws1.png?v=1695642585" alt="Power 65W GaN" class="mx-auto mb-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                    <span class="vissually-hidden"></span>
+                </button>
+            </div>
+        </div>
+          <button id="b4" class="w-[220.4px] h-[30px] bg-black hover:bg-[#fb471f]  text-white font-gruppo text-sm mx-auto mt-4 block">DISCOVER</button><br>
+          <button id="b5" class="bg-[#fb471f] w-[220.4px] h-[30px] text-white font-gruppo text-sm mx-auto  mt-6 mb-5 block">BUY NOW</button>
+        </div>
+      
+        <!-- WATCH PRO -->
+        <div class="bg-[#9a9c9d] ">
+          <h2 class="text-5xl text-black font-bold  pt-11 pl-11" style="font-family: ndot;">WATCH PRO</h2>
+          <p class="pl-12  font-gruppo text-xs">From ₹4,499</p>
+          <p id="pro" class="font-gruppo pl-12 e text-xs">
+            MIGHTY 1.96" AMOLED DISPLAY<br>
+            BLUETOOTH CALLS WITH AI NOISE REDUCTION<br>
+            BUILT-IN MULTI-SYSTEM GPS
+          </p>   
+
+<div class="flex bg-[#9a9c9d]">
+    <div id="productCarousel1" class="carousel slide w-full max-w-4xl" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators" id="c1">
+            <button type="button" data-bs-target="#productCarousel1" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#productCarousel1" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#productCarousel1" data-bs-slide-to="2" class="" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#productCarousel1" data-bs-slide-to="3" class="" aria-label="Slide 4"></button>
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <div class="flex border-radius:none">
+                    <div class="bg-[#9a9c9d] ">
+                        <img src="https://in.cmf.tech/cdn/shop/files/Watch_Light_Grey_842542fb-13dc-4e93-a11e-320fd49f7b02.png?v=1704282426" alt="Buds Pro" class="mx-auto mb-4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="flex justify-center">
+                    <div class="bg-[#9a9c9d]">
+                        <img src="https://in.cmf.tech/cdn/shop/files/watch-grey.png?v=1695642819" alt="Watch Pro" class="mx-auto mb-4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="flex justify-center">
+                    <div class="bg-[#9a9c9d] ">
+                        <img src="https://in.cmf.tech/cdn/shop/files/watch-black.png?v=1695642952" alt="Power 65W GaN" class="mx-auto mb-4">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+                <div class="flex justify-center">
+                    <div class="bg-[#9a9c9d]">
+                        <img src="https://in.cmf.tech/cdn/shop/files/watch-orange.png?v=1695642902" alt="Speaker Pro" class="mx-auto mb-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="visually-hidden"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="visually-hidden"></span>
+        </button>
+    </div>
+</div>
+
+          <button id="b4" class="w-[220.4px] h-[30px] bg-black text-white font-gruppo text-sm mx-auto mt-4 block">DISCOVER</button><br>
+          <button id="b5" class="bg-[#fb471f] w-[220.4px] h-[30px] text-white font-gruppo text-sm mx-auto mt-6 mb-5 block">BUY NOW</button>
+        </div>
+
+        <!-- POWER 65W GaN -->
+        <div class="bg-gray-200 ">
+          <h2 class="text-5xl text-black font-bold pt-11 pl-11"style="font-family: ndot;">POWER 65W GaN</h2>
+          <p class="pl-12 font-gruppo text-xs">From ₹2,999</p>
+          <p id="pro" class="font-gruppo pl-12 text-xs mb-5">
+            3-IN-1 COMPACT DESIGN<br>
+            65W GAN ULTRA-FAST CHARGING
+            WIDE COMPATIBILITY
+          </p>
+          <div class="flex bg-gray-100">
+            <div id="productCarousel2" class="carousel slide w-full max-w-4xl" data-bs-ride="carousel">
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators" id="c2">
+                    <button type="button" data-bs-target="#productCarousel2" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#productCarousel2" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                </div>
+                <!-- Carousel Items -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="flex  justify-center">
+                            <div class="bg-gray-200 rounded-lg ">
+                            <img src="https://in.cmf.tech/cdn/shop/files/power-black.png?v=1695643040" alt=""  class="mx-auto mb-4 ">
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="flex justify-center ">
+                            <div class="bg-gray-200 rounded-lg ">
+                                <img src="https://in.cmf.tech/cdn/shop/files/power-orange.png?v=1695643117" alt="Watch Pro" class="mx-auto mb-4  ">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                    <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                    <span class="vissually-hidden"></span>
+                </button>
+            </div>
+        </div>
+          <button id="b4" class="w-[220.4px] h-[30px] bg-black text-white hover:bg-orange-500 font-gruppo text-sm mx-auto mt-1 block">DISCOVER</button><br>
+          <button id="b5" class="bg-[#fb471f] w-[220.4px] h-[30px] text-white font-gruppo text-sm mx-auto mt-6 mb-5 block">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+    </section>  
+    <!-- essay -->
+      <section class=" min-h-[650px]" style="background-color:#424b54;color: white ;">
+        <div class="container mx-auto px-4 py-8 pl-12 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-8"style="margin-top:50px">
+                <div class="text-left">
+                    <h2 class="text-3xl "style=" font-family:Source Code Pro,monospace;">Forbes</h2>
+                    <p class="mt-2" style=" font-family: Abel,sans-serif;">"CMF Nothing's New Pro Buds <br> Are The Best True Wireless<br> Earbuds Under $50"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl " style=" font-family:Source Code Pro,monospace;">Creative Bloq</h2>
+                    <p class="mt-2">"New brand CMF by Nothing feels disruptive"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl " style=" font-family:Source Code Pro,monospace;">GQ</h2>
+                    <p class="mt-2">"A set of affordable tech that looks great and works better"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl " style=" font-family:Source Code Pro,monospace;">T3</h2>
+                    <p class="mt-2">"CMF by Nothing Buds Pro have the specs to be the best budget wireless earbuds yet"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl "style=" font-family:Source Code Pro,monospace;">Hypebeast</h2>
+                    <p class="mt-2">"Engineered to deliver timeless and functional design, achieved through a careful selection of colors, materials, and finishes"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl "style=" font-family:Source Code Pro,monospace;">Highsnobiety</h2>
+                    <p class="mt-2">"The Watch Pro and Buds Pro offer minimalist designs and capabilities similar to leading brands at a quarter of the cost"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl"style=" font-family:Source Code Pro,monospace;">TechRadar</h2>
+                    <p class="mt-2">"If there's any company that could bring neckband earbuds back into vogue, CMF by Nothing is definitely it"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl "style=" font-family:Source Code Pro,monospace;">Stuff</h2>
+                    <p class="mt-2">"CMF Buds An exceptional all-rounder on a budget"</p>
+                </div>
+                <div class="text-left">
+                    <h2 class="text-3xl "style=" font-family:Source Code Pro,monospace;">GSM Arena</h2>
+                    <p class="mt-2">"CMF Buds and Neckband Pro launch with low prices, ANC and advanced connectivity"</p>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- 2parts -->
+      <section class="bg-gray-400 min-h-screen">
+        <div class="grid grid-cols-1 lg:grid-cols-2 h-full">
+            <!-- Left Side - Image Section -->
+            <div class="bg-orange-600 flex items-center justify-center  h-auto">
+                <img src="images/image.png" alt="Design Image" class="object-cover w-full h-full lg:h-auto">
+            </div>
+    
+            <!-- Right Side - Text Section -->
+            <div class="p-6 md:p-3 lg:p-[10px] flex flex-col justify-center lg:ms-20  md:justify-content-center">
+                <h1 class="text-3xl md:text-4xl lg:text-4xl  mb-4 md:mb-6 lg:mb-8">WONDERFUL BY<br> DESIGN</h1>
+                <p class=" leading-relaxed mb-3 md:mb-4 text-sm ">
+                    As designers, it's our responsibility to question the world.<br> The objects that surround us and their true meaning.
+                </p>
+                <p class="leading-relaxed mb-3 md:mb-4 text-sm">
+                    That includes technology.<br> The very core of our everyday existence.<br> But if tech is so important to us, why don't we take more pride in how it looks?<br> How it makes us feel?
+                </p>
+                <p class=" leading-relaxed mb-3 md:mb-4 text-sm">
+                    Let's make great design accessible for all.<br> By creating thoughtful devices that are both beautiful and functional.<br> That can act as sources of joy and self-expression.
+                </p>
+                <p class="leading-relaxed mb-3 md:mb-4 text-sm">
+                    To do that, we reject indifference. Carefully considering every detail. Colour.<br> Material. Finish.
+                </p>
+                <p class=" leading-relaxed mb-3 md:mb-4 text-sm">
+                    To make the necessary, brilliant.<br> The essential, wonderful.
+                </p>
+                <p class=" leading-relaxed text-sm">
+                    CMF by Nothing
+                </p>
+            </div>
+        </div>
+    </section>
+    
+      <!-- Login -->
+      <section class="grid grid-cols-1 md:grid-cols-2 h-96 mt-">
+        <!-- First Section -->
+        <div class="flex flex-col justify-center items-center bg-white p-8">
+          <h1 class="text-3xl  tracking-wide">BE THE FIRST TO KNOW</h1>
+          <p class="text-gray-500 mt-2">Sign-up for brand updates and news on our latest products.</p>
+        </div>
+        
+        <!-- Second Section -->
+        <div class="p-8 flex flex-col justify-center bg-white">
+          <div class="flex">
+            <input type="email" placeholder="your@email.com"
+                   class="border border-gray-300 px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-gray-400 w-full">
+            <button
+              class="bg-gray-800 text-white px-4 py-2 rounded-r-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-400">
+              ➔
+            </button>
+          </div>
+          
+          <div class="mt-4">
+            <input type="checkbox" id="agree" name="agree" class="mr-2">
+            <label for="agree" class="text-gray-500">You have read and agree to the terms in our <a href="#"
+                class="text-gray-800 underline">Privacy Policy</a>.</label>
+          </div>
+        </div>
+      </section>
+  <!-- footer1 -->
+
+        <section class="bg-gray-200 text-gray-700 text-sm min-h-3/6 ">
+          <div class="container mx-auto py-6">
+              <div class="flex justify-between items-center text-decoration:none">
+                  <p>© 2024 CMF.TECH</p>
+                 <a href="#" class="text-gray-800  hover:text-orange-600">&rarr;    India</a>
+    </div>
+              <div class="flex justify-between mt-6">
+                  <div>
+                      <h3 class="font-semibold">PRODUCTS</h3>
+                      <ul class="mt-2 space-y-1">
+                          <li><a href="#" class="hover:text-gray-900">NECKBAND PRO</a></li>
+                          <li><a href="#" class="hover:text-gray-900">BUDS</a></li>
+                          <li><a href="#" class="hover:text-gray-900">BUDS PRO</a></li>
+                          <li><a href="#" class="hover:text-gray-900">WATCH PRO</a></li>
+                          <li><a href="#" class="hover:text-gray-900">POWER 65W GaN</a></li>
+                        </ul>
+                    </div>
+                  <div>
+                      <h3 class="font-semibold">COMPANY</h3>
+                      <ul class="mt-2 space-y-1">
+                          <li><a href="#" class="hover:text-gray-900">ABOUT</a></li>
+                          <li><a href="#" class="hover:text-gray-900">NEWSROOM</a></li>
+                        </ul>
+                    </div>
+                  <div>
+                      <h3 class="font-semibold">SUPPORT</h3>
+                      <ul class="mt-2 space-y-1">
+                          <li><a href="#" class="hover:text-gray-900">SUPPORT CENTER</a></li>
+                          <li><a href="#" class="hover:text-gray-900">FIND A STORE</a></li>
+                          <li><a href="#" class="hover:text-gray-900">DOWNLOAD CENTER</a></li>
+                          <li><a href="#" class="hover:text-gray-900">CONTACT US</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+              <!-- Bottom Section -->
+                  <div class="bg-gray-300 py-6">
+                      <div class="container mx-auto flex justify-between items-center">
+                          <div class="flex space-x-4">
+                              <img src="https://in.cmf.tech/cdn/shop/files/CMF_Logo.svg?v=1720444805" alt="CMF Logo" class="h-16 w-16 color-black"> <!-- Replace with actual logo -->
+                          </div>
+                          <div class="flex space-x-4">
+                            <a href="#" class=" hover:text-white"><i class=" fa-brands fa-youtube fa-2x"></i></a>
+                            <a href="#" class=" hover:text-white"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                            <a href="#" class=" hover:text-white"><i class="fa-brands fa-x-twitter fa-2x"></i></i></a>
+                        </div>
+                      </div>
+                      <div class="container mx-auto mt-6 flex justify-between items-center ">
+                          <div class="flex space-x-4">
+                              <a href="#" class="hover:text-gray-900 no-underline hover:underline">PRIVACY POLICY</a>
+                              <a href="#" class="hover:text-gray-900 no-underline hover:underline">USER AGREEMENT</a>
+                              <a href="#" class="hover:text-gray-900 no-underline hover:underline">WARRANTY POLICY</a>
+                          </div>
+                      </div>
+                  </div>
+                </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    function toggleMobileMenu() {
+        const menu = document.getElementById('mobile-menu');
+        menu.classList.toggle('hidden');
+    }
+
+    function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle('hidden');
+    }
+</script>
+
+
+</html>

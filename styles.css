@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'LetteraMonoLL', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+@font-face {
+    font-family: "Ndot";
+    src: url('./fonts/Ndot-55.otf');
+}
+@font-face{
+    font-family: "NType-Regular";
+    src:url('./fonts/NType82-Regular.otf')
+}
+@font-face{
+    font-family: "NType-Mono";
+    src:url('./fonts/NType82Mono-Regular.otf')
+}
+.logo {
+    /* width: 70px; Set your desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 48px; 
+    width:82.72px;
+    height: 63px;
+    color: white;
+    margin-top:20px;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.001); 
+    height: 60px;
+}
+
+.hero-section {
+    background-image: url('https://in.cmf.tech/cdn/shop/files/img_v3_02cj_e9ce815e-5c77-41ec-9a5d-8a83de63c75h_1920x.png?v=1720418506'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: white;
+    background-color: none;
+}
+.navitem{
+    color: white;
+}
+.hero-section .container {
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.display-4{
+    font-family:"Ndot";
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left: 0px;
+    margin-top: 250px;
+}
+.b1{
+    background-color: #fb471f;
+    width: 180.4px;
+    height: 31.55px;
+    margin-left: 0px;
+    border: 0px; 
+    color: white;
+    font-family: Gruppo, sans-serif;
+    padding: 8px ;
+    padding-bottom: 36px;
+    font-size: 17px; 
+    border-radius:0px;
+}
+.b1:hover{
+    background-color: black;
+}
+.sec-section {
+    background-image: url('./images/img_v3_02cj_bea09501-7872-4d1a-ac27-55c0714c42eg_1920x.webp'); 
+    background-size: cover;
+    background-position: center;
+    height: 650px; 
+    color: rgb(0, 0, 0);
+    background-color: none;
+    background-position: fixed;
+}
+#display-3 .sec-section{
+    font-family:"Ndot";
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-left:20px;
+    margin-top: -50px;
+    
+}
+#p1 .container{
+    margin-left: -302px;
+    font-family: "Gruppo", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.bf .container{
+    margin-left:-600px;
+}
+#b2{
+    background-color: #000000;
+    width: 180.4px;
+    height: 30px;
+    border: 0px; 
+    color: white;
+    font-family: Gruppo, sans-serif;
+    padding: 2px ;
+    font-size: 17px; 
+    border-radius:0px;
+    padding-bottom: 8px;
+}
+#b3{
+    background-color: #fb471f;
+    width: 180.4px;
+    height: 30px;
+    border: 0px; 
+    color: white;
+    font-family: Gruppo, sans-serif;
+    padding: 2px ;
+    padding-bottom: 2px;
+    font-size: 17px; 
+    border-radius:0px;
+    margin-left: 20px;
+}
+#b2:hover{
+    background-color: #fb471f;
+}
+#b3:hover{
+    background-color: #000000;
+}
+#b4{
+    background-color: #000000;
+}
+#b4:hover{
+    background-color: #fb471f;
+}
+#b5:hover{
+    background-color: #000000;
+}
+.third-section {
+    background-image: url('https://in.cmf.tech/cdn/shop/files/img_v3_02cj_906cd560-f6fd-4f98-9caa-a962f33267bg_1920x.png?v=1720423431'); 
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: rgb(0, 0, 0);
+    background-color: none;
+}
+.fourth-section {
+    background-image: url('https://in.cmf.tech/cdn/shop/files/img_v3_02cj_1964ddcb-f993-4aff-b0ca-a90748ba199g_1920x.png?v=1720423450'); 
+    background-size: cover;
+    background-position: center;
+    height: 650px; 
+    color: rgb(0, 0, 0);
+    background-color: none;
+}
+.fifth-section {
+    background-image: url('https://in.cmf.tech/cdn/shop/files/PC_4292760c-c953-4ad7-9c37-d2970bf385e8_1920x.jpg?v=1720164738'); 
+    background-size: cover;
+    background-position: center;
+    height: 650px; 
+    color: rgb(255, 255, 255);
+    background-color: none;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.grid-item {
+    background-color: #e9ecef;
+    padding: 0px;
+    border-radius: 0px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: -100px;
+    padding-right: -100px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.carousel-indicators button {
+    @apply w-3 h-3 rounded-full ;
+    background-color: transparent;
+    border: none;
+}
+
+.carousel-indicators button:nth-child(1) {
+    background-color: red;
+}
+
+.carousel-indicators button:nth-child(2) {
+    background-color: white;
+}
+
+.carousel-indicators button:nth-child(3) {
+    background-color: black;
+}
+
+.carousel-indicators .active {
+    @apply ring-2 ring-black; /* Add a ring (border) to the active indicator */
+}
+
+
+#c1 button {
+    @apply w-3 h-3 rounded-full ;
+    background-color: transparent;
+    border: none;
+}
+
+#c1 button:nth-child(1) {
+    background-color: rgb(255, 255, 255);
+}
+
+#c1 button:nth-child(2) {
+    background-color:grey;
+}
+#c1 button:nth-child(3) {
+    background-color: black;
+}
+#c1 button:nth-child(4) {
+    background-color: red;
+}
+#c1.active {
+    @apply ring-2 ring-black; /* Add a ring (border) to the active indicator */
+}
+
+
+
+#c2 button {
+    @apply w-3 h-3 rounded-full;
+    background-color: transparent;
+    border: none;
+}
+
+#c2 button:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+}
+
+#c2 button:nth-child(2) {
+    background-color: rgb(255, 0, 0);
+}
+#c2.active {
+    @apply ring-2 ring-black; /* Add a ring (border) to the active indicator */
+}
+#menu-toggle:checked + label + #mobile-menu #menu-content {
+    display: block;
+}
